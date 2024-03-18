@@ -54,4 +54,4 @@ with col2:
     kurtosis = (1 / sample_size) * sum(((normal_tamsayi_dizi - mean) / std_dev) ** 4) - 3
     st.subheader(kurtosis)
     st.divider()
-    st.image("/skewness_vis.png")
+    st.image("./skewness_vis.png")
